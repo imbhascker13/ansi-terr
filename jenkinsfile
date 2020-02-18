@@ -27,7 +27,7 @@ stage('Download package from JFrog') {
 
 		
 		/*stage('Deployment into production'){
-			sh label: 'terraform', script: 'ansible-playbook  --key /home/mtadminnuvepro/.ssh/bike.pem -i inventory ./web-playbook.yaml -u ubuntu -v'
+			sh label: 'terraform', script: 'ansible-playbook  --key /home/mtadminnuvepro/.ssh/josis.pem -i inventory ./bikeplaybook.yaml -u ubuntu -v'
 		}*/
 
 
